@@ -2,10 +2,10 @@
 
 # HabitFlow
 
-### App iOS de rastreamento de habitos diarios com persistencia local, notificacoes personalizadas e widget na homescreen -- construido com SwiftUI, SwiftData, Charts e WidgetKit
+### App iOS de rastreamento de hábitos diários com persistência local, notificações e widget — SwiftUI · SwiftData · Charts · WidgetKit
 
 [![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/swift/)
-[![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
+[![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=SwiftUI&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
 [![SwiftData](https://img.shields.io/badge/SwiftData-5E5CE6?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/documentation/swiftdata)
 [![Charts](https://img.shields.io/badge/Charts-34C759?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/documentation/charts)
 [![WidgetKit](https://img.shields.io/badge/WidgetKit-FF9500?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/documentation/widgetkit)
@@ -15,53 +15,53 @@
 
 ---
 
-## Sobre o Projeto
+## 📱 Sobre o Projeto
 
-**HabitFlow** e um app completo de rastreamento de habitos que funciona 100% offline. O usuario cria habitos personalizados com emoji, cor e dias da semana, marca conclusoes diarias com animacoes e haptic feedback, acompanha estatisticas mensais com graficos nativos do framework Charts, e recebe lembretes via notificacoes locais. O app tambem inclui um widget para a homescreen que mostra o progresso do dia em tempo real.
+**HabitFlow** é um app iOS completo de rastreamento de hábitos que funciona 100% offline. O usuário cria hábitos personalizados com emoji, cor e dias da semana, marca conclusões diárias com animações e haptic feedback, acompanha estatísticas mensais com gráficos nativos do framework Charts, e recebe lembretes via notificações locais. O app também inclui um widget para a homescreen que exibe o progresso do dia em tempo real.
 
 ---
 
-## Screenshots
+## 🖼️ Screenshots
 
 <div align="center">
 
-| Home | Formulario | Estatisticas |
-|:---:|:---:|:---:|
-| <img src="Screenshots/home.png" width="250"> | <img src="Screenshots/form.png" width="250"> | <img src="Screenshots/stats.png" width="250"> |
+| Home | Home Vazia | Formulário | Estatísticas |
+|------|-----------|-----------|-------------|
+| <img src="Screenshots/home.png" width="200"> | <img src="Screenshots/home_empty.png" width="200"> | <img src="Screenshots/form.png" width="200"> | <img src="Screenshots/stats.png" width="200"> |
 
 </div>
 
 ---
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- **Criar habitos personalizados** -- nome, emoji, cor e dias da semana
-- **Marcar conclusao diaria** -- com animacao e haptic feedback
-- **Progress ring** -- anel circular mostrando o progresso semanal de cada habito
-- **Streak tracking** -- contagem de dias consecutivos de conclusao
-- **Estatisticas mensais** -- grafico de barras por dia e barra de progresso por habito
-- **Navegacao entre meses** -- visualizar historico de qualquer mes
-- **Notificacoes locais** -- lembretes configuraveis por horario e dia da semana
-- **Widget na homescreen** -- tamanhos Small e Medium com dados em tempo real
-- **Swipe para excluir** -- exclusao rapida com gesto de swipe
-- **Context menu** -- editar ou excluir via toque longo
-- **100% offline** -- persistencia local com SwiftData, sem dependencia de internet
-
----
-
-## Tecnologias
-
-- **Swift 6** -- linguagem principal com strict concurrency
-- **SwiftUI** -- interface declarativa e reativa
-- **SwiftData** -- persistencia local com @Model e @Query
-- **Charts** -- graficos nativos de barras para estatisticas
-- **WidgetKit** -- widget da homescreen com TimelineProvider
-- **UserNotifications** -- notificacoes locais com UNCalendarNotificationTrigger
-- **MVVM** -- arquitetura com ViewModels usando @Observable
+- **Hábitos personalizados** — nome, emoji, cor e dias da semana
+- **Conclusão diária** — marcação com animação e haptic feedback
+- **Progress ring** — anel circular com o progresso semanal de cada hábito
+- **Streak tracking** — contagem de dias consecutivos de conclusão
+- **Estatísticas mensais** — gráfico de barras por dia e barra de progresso por hábito
+- **Navegação entre meses** — visualização do histórico de qualquer mês
+- **Notificações locais** — lembretes configuráveis por horário e dia da semana
+- **Widget na homescreen** — tamanhos Small e Medium com dados em tempo real
+- **Swipe para excluir** — exclusão rápida com gesto de swipe
+- **Context menu** — editar ou excluir via toque longo
+- **100% offline** — persistência local com SwiftData, sem dependência de internet
 
 ---
 
-## Estrutura do Projeto
+## 🛠️ Tecnologias
+
+- **Swift 6** — linguagem principal com strict concurrency
+- **SwiftUI** — interface declarativa e reativa
+- **SwiftData** — persistência local com @Model e @Query
+- **Charts** — gráficos nativos de barras para estatísticas
+- **WidgetKit** — widget da homescreen com TimelineProvider
+- **UserNotifications** — notificações locais com UNCalendarNotificationTrigger
+- **MVVM** — arquitetura com ViewModels usando @Observable
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```
 HabitFlow/
@@ -109,29 +109,32 @@ HabitFlowWidget/
 
 ---
 
-## Como Executar
+## 🚀 Como Executar
 
-1. Clone o repositorio
-   ```bash
-   git clone https://github.com/GeozedequeGuimaraes/HabitFlow.git
-   ```
-2. Abra o arquivo `HabitFlow.xcodeproj` no Xcode
-3. Selecione um simulador ou dispositivo fisico
-4. Execute o projeto com `Cmd + R`
+**1.** Clone o repositório
+```bash
+git clone https://github.com/GeozedequeGuimaraes/HabitFlow.git
+```
 
-> **Nota:** Para o widget funcionar com dados compartilhados, configure o App Group `group.br.geozedeque.habitflow` nos targets HabitFlow e HabitFlowWidgetExtension em Signing & Capabilities.
+**2.** Abra o arquivo `HabitFlow.xcodeproj` no Xcode
+
+**3.** Selecione um simulador ou dispositivo físico
+
+**4.** Execute o projeto com `Cmd + R`
+
+> **Nota:** Para o widget funcionar com dados compartilhados, configure o App Group `group.br.geozedeque.habitflow` nos targets **HabitFlow** e **HabitFlowWidgetExtension** em *Signing & Capabilities*.
 
 ---
 
-## Autor
+## 👤 Autor
 
 <div align="center">
 
-**Geozedeque Guimaraes**
+**Geozedeque Guimarães**
 
-Estudante de Ciencia da Computacao -- CIn-UFPE
+Estudante de Ciência da Computação — CIn-UFPE
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geozedeque-guimaraes/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geozedeque-guimaraes/)
 
 </div>
