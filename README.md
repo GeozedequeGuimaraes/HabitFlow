@@ -115,6 +115,16 @@ git clone https://github.com/GeozedequeGuimaraes/HabitFlow.git
 
 ---
 
+## Demo
+
+<div align="center">
+
+<img src="Screenshots/demo.gif" width="300" alt="Demo do app">
+
+</div>
+
+---
+
 ## 🖼️ Screenshots
 
 <div align="center">
