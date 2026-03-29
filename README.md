@@ -21,18 +21,6 @@
 
 ---
 
-## 🖼️ Screenshots
-
-<div align="center">
-
-| Home | Home Vazia | Formulário | Estatísticas |
-|------|-----------|-----------|-------------|
-| <img src="Screenshots/home.png" width="200"> | <img src="Screenshots/home_empty.png" width="200"> | <img src="Screenshots/form.png" width="200"> | <img src="Screenshots/stats.png" width="200"> |
-
-</div>
-
----
-
 ## ✨ Funcionalidades
 
 - **Hábitos personalizados** — nome, emoji, cor e dias da semana
@@ -112,6 +100,7 @@ HabitFlowWidget/
 ## 🚀 Como Executar
 
 **1.** Clone o repositório
+
 ```bash
 git clone https://github.com/GeozedequeGuimaraes/HabitFlow.git
 ```
@@ -126,12 +115,23 @@ git clone https://github.com/GeozedequeGuimaraes/HabitFlow.git
 
 ---
 
+## 🖼️ Screenshots
+
+<div align="center">
+
+| Home | Home Vazia | Formulário | Estatísticas |
+|------|-----------|-----------|-------------|
+| <img src="Screenshots/home.png" width="200"> | <img src="Screenshots/home_empty.png" width="200"> | <img src="Screenshots/form.png" width="200"> | <img src="Screenshots/stats.png" width="200"> |
+
+</div>
+
+---
+
 ## 👤 Autor
 
 <div align="center">
 
 **Geozedeque Guimarães**
-
 Estudante de Ciência da Computação — CIn-UFPE
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
