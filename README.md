@@ -15,6 +15,16 @@
 
 ---
 
+## Demo
+
+<div align="center">
+
+<img src="Screenshots/demo.gif" width="300" alt="Demo do app">
+
+</div>
+
+---
+
 ## 📱 Sobre o Projeto
 
 **HabitFlow** é um app iOS completo de rastreamento de hábitos que funciona 100% offline. O usuário cria hábitos personalizados com emoji, cor e dias da semana, marca conclusões diárias com animações e haptic feedback, acompanha estatísticas mensais com gráficos nativos do framework Charts, e recebe lembretes via notificações locais. O app também inclui um widget para a homescreen que exibe o progresso do dia em tempo real.
@@ -112,16 +122,6 @@ git clone https://github.com/GeozedequeGuimaraes/HabitFlow.git
 **4.** Execute o projeto com `Cmd + R`
 
 > **Nota:** Para o widget funcionar com dados compartilhados, configure o App Group `group.br.geozedeque.habitflow` nos targets **HabitFlow** e **HabitFlowWidgetExtension** em *Signing & Capabilities*.
-
----
-
-## Demo
-
-<div align="center">
-
-<img src="Screenshots/demo.gif" width="300" alt="Demo do app">
-
-</div>
 
 ---
 
